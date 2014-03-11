@@ -1,0 +1,96 @@
+/* Sparkline styles */
+.ui-sparkline{
+    font-family:"Segoe UI", Arial, sans-serif;
+    font-size:12px;
+    background: rgba(255, 255, 255, 0) !important;
+}
+.ui-sparkline-tooltip {
+    -moz-box-shadow:0 0 2px #555;
+    -webkit-box-shadow:0 0 2px #555;
+    box-shadow:0 0 2px #555;
+    padding:3px
+}
+.ui-sparkline-sparkpath {
+    background:#00AADE;
+    border:1px solid
+}
+.ui-sparkline-negativesparkpath {
+    background:#D0284C;
+    border:1px solid
+}
+.ui-sparkline-trendline {
+    background:#054D99;
+    border:2px solid
+}
+.ui-sparkline-markers {
+    background:#36C0F3;
+    border:3px solid
+}
+.ui-sparkline-firstmarker {
+    background:#19994F;
+    border:5px solid
+}
+.ui-sparkline-lastmarker {
+    background:#FCB025;
+    border:5px solid
+}
+.ui-sparkline-highmarker {
+    background:#BFE107;
+    border:3px solid
+}
+.ui-sparkline-lowmarker {
+    background:#AF39FF;
+    border:3px solid
+}
+.ui-sparkline-negativemarkers {
+    background:#E5516F;
+    border:3px solid
+}
+.ui-sparkline-range {
+    background:gray;
+    opacity:.2
+}
+.ui-sparkline-axis-x {
+    font-family:"Segoe UI", Arial, sans-serif;
+    border:2px solid #989EA3;
+    color:#4B4B4D
+}
+.ui-sparkline-axis-y {
+    font-family:"Segoe UI", Arial, sans-serif;
+    border:2px solid #989EA3;
+    color:#4B4B4D;
+    text-align:right
+}
+/* --- Unrelated sample styling --- */
+ .logo {
+    background-image: url('http://www.infragistics.com/uploadedImages/Content/PRODUCTS/jQuery/ignite-secondary-navigation-logo.png');
+    background-repeat: no-repeat;
+    padding-left: 135px;
+    margin: 5px;
+    vertical-align: top;
+    font-size: 1.2em;
+}
+body {
+    font-size: 0.85em;
+    font-family :"Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+button {
+    text-decoration: none;
+    line-height: 1.5em;
+    background-color: #ACACAC;
+    color: #fff;
+    border: none;
+}
+button:hover {
+    background-color: #007FAF;
+}
+button:active {
+    background-color: #00AEEF;
+}
+</style> <!-- as per http://doc.jsfiddle.net/use/hacks.html --> <meta name="viewport" content="width=device-width, initial-scale=1"> <script> // from http://trentwalton.com/2013/01/16/windows-phone-8-viewport-fix/ 
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle=document.createElement("style");
+    msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+    document.getElementsByTagName("head")[0]. appendChild(msViewportStyle);
+}
+</script> <style>
