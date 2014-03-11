@@ -1,0 +1,29 @@
+.ui-sparkline{
+    font-family:"Segoe UI", Arial, sans-serif;
+    font-size:12px;
+    background: rgba(255, 255, 255, 0) !important;  
+    /*Remember to disable/reduce the Sparkline default padding when inside a grid cell*/
+    padding: 0px!important;
+}
+
+/* --- Unrelated sample styling --- */
+ .logo {
+    background-image: url('http://www.infragistics.com/uploadedImages/Content/PRODUCTS/jQuery/ignite-secondary-navigation-logo.png');
+    background-repeat: no-repeat;
+    padding-left: 135px;
+    margin: 5px;
+    vertical-align: top;
+    font-size: 1.2em;
+}
+body {
+    font-size: 0.85em;
+    font-family :"Segoe UI", Verdana, Helvetica, Sans-Serif;
+}
+
+</style> <!-- as per http://doc.jsfiddle.net/use/hacks.html --> <meta name="viewport" content="width=device-width, initial-scale=1"> <script> // from http://trentwalton.com/2013/01/16/windows-phone-8-viewport-fix/ 
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle=document.createElement("style");
+    msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+    document.getElementsByTagName("head")[0]. appendChild(msViewportStyle);
+}
+</script> <style>

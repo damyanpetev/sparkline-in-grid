@@ -1,0 +1,9 @@
+---
+ name: Sparkline in Hierarchical Grid 13.2
+ description: HTML5 Canvas based Sparkline Chart in Hierarchical jQuery Grid
+ authors:
+   - Damyan Petev
+ resources:
+   - http://cdn-na.infragistics.com/jquery/20132/latest/js/infragistics.loader.js
+ normalize_css: no
+ ...
