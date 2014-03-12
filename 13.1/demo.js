@@ -93,6 +93,7 @@ $.ig.loader(function () {
         }, {
             name: "Tooltips",
             style: "popover",
+            visibility: "always",
             columnSettings: [{
                 columnKey: "Orders",
                 allowTooltips: false
